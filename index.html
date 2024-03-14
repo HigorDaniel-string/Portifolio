@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>HigorCode</title>
+</head>
+<body>
+    <header>
+        <div class="interface">
+            <div class="logo">
+                <a href="#">
+                    <img src="images/logo-HigorCode.png" alt="Logo HigorCode">
+                </a>
+            </div><!--logo-->
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a onclick="scrollToAnchor('inicio')">Inicio</a></li>
+                        <li><a onclick="scrollToAnchor('especialidades')">Especialidades</a></li>
+                        <li><a onclick="scrollToAnchor('sobre')">Sobre</a></li>
+                        <li><a onclick="scrollToAnchor('portifolio')">Projetos</a></li>
+            </nav>
+            <div class="btn-contato">
+                <a onclick="scrollToAnchor('contatos')">
+                    <button>Contatos</button>
+                </a>                
+            </div>
+
+            <button onclick="animarMenu()"  id="btn-menu">
+                <span class="linha"></span>
+                <span class="linha"></span>
+                <span class="linha"></span>
+            </button>
+
+            <div class="interface-menu-mobile"  id="menu-mobile">
+                <nav class="mobile">
+                    <ul>
+                        <li><a onclick="scrollToAnchor('inicio')">Inicio</a></li>
+                        <li><a onclick="scrollToAnchor('especialidades')">Especialidades</a></li>
+                        <li><a onclick="scrollToAnchor('sobre')">Sobre</a></li>
+                        <li><a onclick="scrollToAnchor('portifolio')">Projetos</a></li>
+                        <li><a onclick="scrollToAnchor('contatos')">Contatos</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div><!--interface-->
+    </header>
+
+    <main>
+        <section class="topo-do-site" id="inicio">
+            <div class="interface">
+                <div class="flex">
+                    <div class="txt-topo-site">
+                        <h1>DO CONCEITO Á EXECUÇÃO<span>, </span> UMA LINHA DE CÓDIGO DE CADA VEZ<span>.</span></h1>
+                        <p>Como universitário dedicado, estou pronto para mergulhar no desenvolvimento, enfrentar desafios, aprender e crescer. Com perseverança, alcançarei meus objetivos, me tornando um desenvolvedor de sucesso. Estou ansioso para absorver conhecimento, aproveitar oportunidades de aprendizado e contribuir para a comunidade. Animado para esta jornada, estou comprometido em dar o meu melhor a cada etapa.</p>
+
+                        <div class="btn-contato">
+                            <a onclick="scrollToAnchor('contatos')">
+                                <button>Entre em contato</button>
+                            </a>
+                        </div>
+                    </div> <!--txt-topo-site-->
+
+                    <div class="img-topo-site">
+                        <img src="images/Higor_resized.jpg" alt="">
+                    </div> <!--img-topo-site-->
+                </div> <!--flex-->
+            </div><!--interface-->
+        </section><!--topo-do-site-->
+
+        <section class="especialidades" id="especialidades">
+            <div class="interface">
+                <h2 class="titulo">MINHAS <span>ESPECIALIDADES</span></h2>
+                <div class="flex">
+                    <div class="especialidades-box">
+                        <img src="images/c-sharp-c.svg" alt="">
+                        <h3>C#</h3>
+                        <p>Estudante em C#, estou em desenvolvimento na linguagem, sempre buscando aperfeiçoar para ser capaz de desenvolver aplicativos e sistemas eficientes e escaláveis, aproveitando todo o potencial da linguagem para atender às necessidades específicas de projetos de software.</p>
+                    </div> <!--especialidades-box-->
+
+                    <div class="especialidades-box">
+                        <img src="images/icons8-python-96.svg" alt="">
+                        <h3>Python</h3>
+                        <p>Como estudante em Python, posso criar soluções versáteis e poderosas, desde scripts simples e praticando para fazer aplicações complexas, aproveitando a riqueza e a facilidade de uso dessa linguagem.</p>
+                    </div> <!--especialidades-box-->
+
+                    <div class="especialidades-box">
+                        <img src="images/icons8-front-end-64.png" alt="">
+                        <h3>Front-end</h3>
+                        <p>Me aperfeiçoando a cada dia em Front-end, para ser capaz de desenvolver sites e sempre em busca de ampliar mes conhecimentos até me tornar um Full Stack.</p>
+                    </div> <!--especialidades-box-->
+                </div> <!--flex-->
+            </div> <!--interface-->
+        </section> <!--especialidades-->
+
+        <section class="sobre" id="sobre">
+            <div class="interface">
+                <div class="flex flexsobre">
+                    <div class="img-sobre">
+                        <img src="images/Higor.jpg" alt="">
+                        <div class="container">
+                            
+                            <div class="qualidade">
+                                <div class="nome">Dedicação</div>
+                                <div class="barra">
+                                    <div class="progresso" style="width: 80%;"></div>
+                                </div>
+                            </div>
+                            <div class="qualidade">
+                                <div class="nome">Comunicação</div>
+                                <div class="barra">
+                                    <div class="progresso" style="width: 65%;"></div>
+                                </div>
+                            </div>
+                            <div class="qualidade">
+                                <div class="nome">Pontual</div>
+                                <div class="barra">
+                                    <div class="progresso" style="width: 90%;"></div>
+                                </div>
+                            </div>
+                            <div class="qualidade">
+                                <div class="nome">Proatividade</div>
+                                <div class="barra">
+                                    <div class="progresso" style="width: 70%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!--img-sobre-->
+
+                    
+
+                    <div class="txt-sobre">
+                        <h2>MUITO PRAZER, <span>SOU HIGOR DANIEL.</span></h2>
+                        <p>Nascido em Aparecida de Goiânia, Goiás, com 18 anos de idade, iniciei minha jornada no mundo da programação aos 12 anos. O canal Curso em Vídeo despertou meu interesse pela área, onde dei meus primeiros passos codificando em Python. Desde então, desenvolvi uma paixão pela programação, que me levou a explorar diferentes linguagens e tecnologias.</p>
+                        <p>Atualmente, estou matriculado no curso de Sistemas de Informação na Unialfa, enquanto continuo aprimorando minhas habilidades através de cursos externos. Meus estudos concentram-se em C#, SQL e Front-end, áreas nas quais busco me especializar.</p>
+                        <p>Antes disso, adquiri experiência durante quase dois anos como aprendiz na área de comunicação e marketing na LG lugar de gente. Essa experiência me proporcionou uma compreensão valiosa sobre o funcionamento prático em equipe, me ajudou a desenvolver uma melhor organização sobre demandas, pontualidade, dedicação, proatividade, produtividade e comunicação me ajudando a complementar para minhas gestões de projetos e estudos.</p>
+
+                        <div class="btn-social">
+                            <a href="https://www.instagram.com/higorcode_/" target="_blank"><button><i class="bi bi-instagram"></i></button></a>
+                            <a href="https://www.linkedin.com/in/higor-daniel-morais-rodrigues-b49689205/" target="_blank"><button><i class="bi bi-linkedin"></i></button></i></a>
+                            <a href="https://wa.me/+5562983052721" target="_blank"><button><i class="bi bi-whatsapp"></i></button></i></a>
+                            <a href="https://github.com/HigorDaniel-string" target="_blank"><button><i class="bi bi-github"></i></button></a>
+                        </div> <!--btn-social-->
+                    </div> <!--txt-sobre-->
+                </div> <!--flex-->
+            </div> <!--interface-->
+        </section> <!--sobre-->
+
+        <!-- <section class="portifolio" id="portifolio">
+            <div class="interface">
+                <h2 class="titulo">MEU <span>PORTIFÓLIO</span></h2>
+                <div class="flex">
+                    <div class="img-port" style="background-image: url(images/projeto-buscar-cep.png);">
+                    <div class="overlay">Projeto 1</div></div>
+                    <div class="img-port" style="background-image: url(images/imagem.jpg);">
+                        <div class="overlay">Projeto 2</div>
+                    </div>
+                    <div class="img-port" style="background-image: url(images/imagem.jpg);">
+                        <div class="overlay">Projeto 3</div>
+                    </div>
+                </div> flex-->
+            <!--</div>interface-->
+        <!--</section> portifolio -->
+
+        <section class="formulario" id="contatos">
+            <div class="interface">
+                <h2 class="titulo">FALA <span>COMIGO</span></h2>
+
+                <form action="">
+                    <input type="text" name="" id="" placeholder="Seu nome completo:" required>
+                    <input type="text" name="" id="" placeholder="Seu e-mail:" required>
+                    <input type="text" name="" id="" placeholder="Seu celular:">
+                    <textarea name="" id="" placeholder="Sua mensagem" required></textarea>
+                    <div class="btn-enviar"><input type="submit" value="ENVIAR"></div>
+                </form>
+            </div> <!--interface-->
+        </section> <!--formulario-->
+    </main>
+
+    <footer>
+        <div class="interface">
+            <div class="line-footer">
+                <div class="flex">
+                    <div class="logo-footer">
+                        <img src="images/logo-HigorCode.png" alt="Logo HigorCode">
+                    </div> <!--logo-footer-->
+                    <div class="btn-social">
+                        <a href="https://www.instagram.com/higorcode_/" target="_blank"><button><i class="bi bi-instagram"></i></button></a>
+                        <a href="https://www.linkedin.com/in/higor-daniel-morais-rodrigues-b49689205/" target="_blank"><button><i class="bi bi-linkedin"></i></button></i></a>
+                        <a href="https://wa.me/+5562983052721" target="_blank"><button><i class="bi bi-whatsapp"></i></button></i></a>
+                        <a href="https://github.com/HigorDaniel-string" target="_blank"><button><i class="bi bi-github"></i></button></a>
+                    </div> <!--btn-social-->
+                </div> <!--flex-->
+            </div> <!--line-footer-->
+
+            <div class="line-footer borda">
+                <p><i class="bi bi-envelope-fill"></i> <a href="mailto:higordanielmorais@gmail.com">higordanielmorais@gmail.com</a></p>
+            </div> <!--line-footer-->
+        </div> <!--interface-->
+    </footer>
+
+    <script src="js/config.js"></script>
+</body>
+</html>
