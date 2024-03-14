@@ -3,6 +3,7 @@
     $nome = addslashes($_POST['nome']);
     $email = addslashes($_POST['email']);
     $celular = addslashes($_POST['celular']);
+    $textarea = addslashes($_POST['textarea']);
 
     $para = "higordanielmorais@gmail.com";
     $assunto = "Portifólio - Contato";
@@ -11,7 +12,9 @@
 
     $cabeca = "From: higordanielmorais@gmail.com"."\n"."Reply-to: ".$email."\n"."X=Mailer:PHP/".phpversion();
 
-    if(mail($para,$assunto,$corpo,$cabeca)){
+    $texto = $textarea;
+
+    if(mail($para,$assunto,$corpo,$cabeca,$textarea)){
         echo("E-mail enviado com sucesso!");
     }
     else{
