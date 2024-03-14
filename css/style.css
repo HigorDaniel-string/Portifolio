@@ -145,7 +145,7 @@ section .especialidades .flex {
     color: #fff;
     justify-content: center;
     height: 450px;
-    width: 25%;
+    width: 1000px;
     padding: 40px;
     border-radius: 20px;
     margin-left: 100px;
@@ -489,7 +489,13 @@ footer .line-footer p a {
 
     /* Estilo minhas especialidades */
     section .especialidades{
-        padding: 40px 8%;
+        padding: 30px 4%;
+    }
+
+    .especialidades .especialidades-box{
+        width: 390px;
+        padding: 30px 5%;
+        margin-left: 70px;
     }
 
     /* Sobre */
