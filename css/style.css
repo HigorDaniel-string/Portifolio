@@ -493,11 +493,16 @@ footer .line-footer p a {
     }
 
     .especialidades .especialidades-box{
-        width: 390px;
-        padding: 30px 5%;
-        margin-left: 70px;
+        width: 95%;
+        height: 500px;
+        max-height: 100%;
+        margin-left: 2.5%;
+        margin-right: 1%;
+        margin-bottom: 5%;
+        justify-content: center;
+        align-items: center;
+        display: block;
     }
-
     /* Sobre */
 
     .flexsobre .container{
