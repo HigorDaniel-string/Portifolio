@@ -66,12 +66,13 @@ header .menu-desktop a {
     color: #5c5c5c;
     text-decoration: none;
     display: inline-block;
-    transition: .2s;
+    transition: .3s;
 }
 
 header .menu-desktop a:hover {
     color: #fff;
-    transform: scale(1.1);
+    border-bottom: 2px solid #fff;
+    transform: scale(1.05);
 }
 
 header nav.menu-desktop ul {
